@@ -129,7 +129,6 @@ class FileEncryptionFrame extends JFrame implements ActionListener {
                 key = key + 0;
             }
             Varakey = key;
-            System.out.println(Varakey);
         }else if(keysize > 16){
             Varakey = key.substring(0, 16);
             
